@@ -1,0 +1,22 @@
+ES5 Global Constants
+
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+ES2015 Global Constants
+
+/* Write an ES2015 Version */
+`const PI = 3.14;
+PI = 42;`
+
+What is the difference between var and let?
+  Var's scope is more global since it saves itself in the window. When using Var, you can only re-use a variable name if you're in a different function, not if you're in a different code block within the same function. Var declarations are also hoisted (run before the rest of the code in a file).
+
+What is the difference between var and const?
+  Variables declared with const will warn you if you try to change them. Also all that stuff about let and var applies to const too, as it behaves like let in all those cases.
+  
+What is the difference between let and const?
+  Variables with const will warn you if you try to change them. 
+  
+What is hoisting?
+  Things which get hoisted are run before the rest of the code in a file.
